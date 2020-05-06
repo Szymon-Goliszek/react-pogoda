@@ -7,7 +7,15 @@ const Api={
 function App() {
   return (
     <div className="app">
-    
+      <main>
+       <div className ="search-box">
+          <input 
+            type="text"
+            className = "search-bar"
+            placeholder="Wyszukiwanie..."
+            />
+       </div>
+      </main>
     </div>
   );
 }
